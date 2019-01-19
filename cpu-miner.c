@@ -2753,9 +2753,7 @@ static int thread_create(struct thr_info *thr, void *func) {
 }
 
 static void show_credits() {
-    printf("\n         **********  "PACKAGE_NAME" "PACKAGE_VERSION"  *********** \n");
-    printf("     A CPU/GPU miner with multi algo support and optimized for CPUs\n");
-    printf("     with AES_NI and AVX2 and SHA extensions.\n\n");
+    printf("\n         **********  HooliganMinerArgon2d 1.0  *********** \n");
 }
 
 bool check_cpu_capability() {
